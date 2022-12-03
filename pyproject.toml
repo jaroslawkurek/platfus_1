@@ -1,20 +1,16 @@
 [tool.poetry]
-name = "platfus_1"
+name = "pygame_1_platfys_tutorial"
 version = "0.1.0"
 description = ""
-authors = ["jarczan kurczan solutions <ensewion@gmail.com>"]
+authors = ["ensewion <ensewion@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-pygame = "^2.0.1"
-black = "^21.9b0"
+python = "^3.10"
+pygame = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-pycodestyle = "^2.7.0"
-flake8 = "^3.9.2"
-pylint = "^2.11.1"
-autopep8 = "^1.5.7"
+flake8 = "^4.0.1"
+black = {version = "^22.3.0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
